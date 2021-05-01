@@ -80,7 +80,7 @@ header ul li a
 .adopt
 {
   display: table;
-  margin-left: auto;
+  margin-left: 0 auto;
   margin-right: auto;
   font-size: 28px;
 }
