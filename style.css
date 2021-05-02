@@ -62,6 +62,10 @@ header ul li a
   justify-content: space-between;
   align-items: center;
 }
+.pg
+{
+  font-size: 22px;
+}
 .para
 {
   color: black;
@@ -76,10 +80,7 @@ header ul li a
 {
   text-align: center;
   font-size: 25px;
-}
-.pg
-{
-    font-size: 22px;
+  
 }
 .adopt
 {
@@ -87,4 +88,26 @@ header ul li a
   text-align: center;
   font-size: 22px;
   line-height: 80%;
+}
+.rlensp
+{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+a:link
+{
+  color: black;
+}
+a:visited
+{
+  color: gray;
+}
+a:hover
+{
+  gray: gray;
+}
+a:active
+{
+  color: black;
 }
