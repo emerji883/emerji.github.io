@@ -98,6 +98,10 @@ a:link
 {
   color: white;
 }
+.a:visited
+{
+    color: white;
+}
 .buy
 {
   border-style: solid;
