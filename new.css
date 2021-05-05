@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*
+
+{
+  background-color: black;
+    margin: left;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-Sans', sans-serif;
+ 
+
+}
+.bec
+{
+    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    transition: 0.5s;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    position: relative;
+    max-width: 80px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a 
+{
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content 
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jump
+{
+  font-size: 55px;
+}
+.pg
+{
+  font-size: 28px;
+}
+.textBox
+{
+  font-size: 28px;
+}
+.vm
+{
+  color: white;
+  font-size: 30px;
+  padding-top: -5px;
+  padding-bottom: 60px;
+}
+.cloud
+{
+  color: white;
+  font-size: 30px;
+}
+.lenssoon
+{
+  text-align: center;
+  font-size: 30px;
+}
+.para
+{
+  color: black;
+  text-align: center;
+}
+.info
+{
+  text-align: center;
+  font-size: 35px;
+}
+.spec
+{
+  text-align: center;
+  font-size: 25px;
+  
+}
+.adopt
+{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  line-height: 80%;
+}
+.rlensp
+{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+.spec
+{
+  
+}
+.fps
+{
+  text-align: right;
+  font-size: 22px;
+}
+.air
+{
+  margin: 0 auto;
+  text-align: center;
+}
+.airin
+{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 45px;
+  background-color: gray;
+  color: white;
+  border-radius: 25px;
+}
+.cstor
+{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 45px;
+  background-color: gray;
+  color: white;
+  border-radius: 25px;
+}
+a:link
+{
+  color: white;
+}
+a:visited
+{
+  color: gray;
+}
+a:hover
+{
+  gray: gray;
+}
+a:active
+{
+  color: black;
+}
