@@ -120,11 +120,11 @@ a:link
 }
 a:visited
 {
-  color: gray;
+  color: black;
 }
 a:hover
 {
-  gray: gray;
+  color: black;
 }
 a:active
 {
