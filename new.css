@@ -160,13 +160,13 @@ a:link
 }
 a:visited
 {
-  color: gray;
+  color: white;
 }
 a:hover
 {
-  gray: gray;
+  gray: white;
 }
 a:active
 {
-  color: black;
+  color: white;
 }
