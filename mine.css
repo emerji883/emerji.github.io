@@ -92,11 +92,13 @@ header ul li a
   margin: 0 auto;
   font-size: 22px;
   color: white;
+  text-decoration: none;
   
 }
 a:link
 {
   color: white;
+  text-decoration: none;
 }
 .buy
 {
@@ -186,6 +188,10 @@ a:link
   color: white;
   font-size: 30px;
 }
+.indi
+{
+   text-decoration: none;
+}
 .foe
 {
   color: white;
@@ -202,12 +208,15 @@ a:link
 a:visited
 {
   color: white;
+  text-decoration: none;
 }
 a:active
 {
   color: white;
+  text-decoration: none;
 }
 a:hover
 {
   color: white;
+  text-decoration: none;
 }
