@@ -19,7 +19,7 @@ section
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("img/Reality_Lens_2nd-removebg.png");
+    background-image: url("/Reality_Lens_2nd-removebg.png");
     background-color: white;
     height: 90%;
     transition: 0.5s;
