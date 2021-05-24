@@ -12,6 +12,9 @@
 section
 {
   position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
   width: 100%;
   min-height: 1000px;
   padding: 350px;
