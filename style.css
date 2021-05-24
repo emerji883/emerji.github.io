@@ -19,6 +19,7 @@ section
     align-items: center;
     background-image: url("/Reality_Lens_2nd-removebg.png");
     background-color: white;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 header
