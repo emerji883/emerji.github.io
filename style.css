@@ -13,18 +13,15 @@ section
 {
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    top: 500%;
+    min-height: 1000px;
+    padding: 350px;
+    top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("img/Reality_Lens_2nd-removebg.png");
+    background-image: url("/Reality_Lens_2nd-removebg.png");
     background-color: white;
-    height: 90%;
-    transition: 0.5s;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: -100%;
     background-size: cover;
 }
 header
