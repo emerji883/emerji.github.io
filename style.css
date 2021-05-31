@@ -2,7 +2,6 @@
 *
 
 {
-    margin: left;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open-Sans', sans-serif;
@@ -11,15 +10,13 @@
 }
 section
 {
-    padding: 300px;
-    height: 100vh;
+    padding: 0px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 header
 {
@@ -54,46 +51,31 @@ header ul li a
     margin-left: 40px;
     text-decoration: none;
 }
-.content 
+.hide
 {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: -54.5px;
 }
-.pg
-{
-  font-size: 28px;
-}
-.color
+.colo
 {
   margin: 0 auto;
-  align-items: center;
+  font-size:174px;
+  background: #121FCF;
+background: -webkit-linear-gradient(to right, #121FCF 0%, #AA15CF 82%);
+background: -moz-linear-gradient(to right, #121FCF 0%, #AA15CF 82%);
+background: linear-gradient(to right, #121FCF 0%, #AA15CF 82%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.dolo
+{
+  margin-top: -12%;
+  font-size: 39px;
   text-align: center;
 }
-.centered 
+.sep
 {
-    position: absolute;
-    text-decoration: none;
-    top: 380%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 28px;
-}
-.textBox
-{
-  table: 0;
-  margin: 0 auto;
-  margin-right: -30%;
-}
-.imgBox
-{
-  object-fit: fill;
-  width: 20%;
-  margin-right: auto;
-  margin-left: auto;
-  height: 30%;
+  padding: 10%;
+  align-items: center;
 }
 .rlenstxt
 {
@@ -109,6 +91,7 @@ header ul li a
   width:100%;
   display:block;
   margin:auto;
+  padding: 15%;
   font-size: 42px;
 }
 a:link
