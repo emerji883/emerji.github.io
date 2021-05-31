@@ -87,6 +87,8 @@ header ul li a
 }
 .imgBox
 {
+      padding-top: 12.5%;
+
   margin-top: 20%;
 }
 .rlenstxt
@@ -95,6 +97,8 @@ header ul li a
 }
 .proj
 {
+      padding-top: 12.5%;
+
   text-align:center;
   width:100%;
   display:block;
