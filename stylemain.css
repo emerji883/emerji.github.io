@@ -53,6 +53,7 @@ header ul li a
     font-weight: 400;
     margin-left: 40px;
     text-decoration: none;
+    
 }
 .content 
 {
@@ -83,11 +84,17 @@ header ul li a
 }
 .textBox
 {
-  font-size: 28px;
+  margin: 0 auto;
+  font-size: 128px;
+  background: #ADADAD;
+background: -webkit-linear-gradient(to right, #ADADAD 41%, #000000 81%);
+background: -moz-linear-gradient(to right, #ADADAD 41%, #000000 81%);
+background: linear-gradient(to right, #ADADAD 41%, #000000 81%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .imgBox
 {
-      padding-top: 12.5%;
 
   margin-top: 20%;
 }
@@ -97,13 +104,9 @@ header ul li a
 }
 .proj
 {
-      padding-top: 12.5%;
-
   text-align:center;
   width:100%;
-  display:block;
   margin:auto;
-  font-size: 42px;
 }
 a:link
 {
